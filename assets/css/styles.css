@@ -71,9 +71,6 @@ body {
 
   .card {
     background: var(--dark-card-background);
-  }
-
-  .card {
     box-shadow: 0 5px 5px 0 var(--dark-shadow-color);
   }
 
@@ -99,7 +96,6 @@ body {
   body {
     background-color: var(--light-background-color);
     color: var(--light-text-color);
-    --main-background: var(--light-background-color);
   }
 
   .header {
@@ -253,6 +249,21 @@ body {
   font-size: 5em;
 }
 
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social i {
+  font-size: 5em;
+
+}
+
+.skills {
+  color: #fff;
+}
 .fa-html5 {
   color: red;
 }
@@ -402,8 +413,6 @@ body {
 .btn-primary:active {
   transform: translateY(2px);
 }
-
-
 
 .btn-icon {
   display: inline-block;
